@@ -1,0 +1,105 @@
+body {
+	
+	font-family:"Segoe UI", Tahoma, Geneva, Verdana;
+	color: #666;
+}
+
+#container {
+	
+	width: 700px;
+	margin: 20px auto;
+	border: 2px solid #f1f1f1;
+	padding: 20px;
+	
+}
+.content {
+	padding: 5px 20px 20px 20px; 
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+	box-shadow: 0 0 5px #ccc;
+	
+}
+
+
+h2 {
+	
+	color: #06C;
+}
+
+.submit {
+	
+	background: #FFFFFF;
+	border: 1px solid #06C;
+	color: #000;
+	cursor: pointer;
+	margin-top: 7px;
+	padding: 5px 10px 5px 10px;
+	font-size: 15px;
+}
+
+#stats {
+	
+	margin-bottom:7px;
+}
+
+.footer {
+	
+	float:right;
+	font-size: 9px;
+}
+
+.voted {
+	
+	margin-top: 5px;
+	font-size: 11px;
+	font-style: italic;
+	
+}
+
+hr {
+	
+  border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc); 	
+}
+
+.vertical-line {
+	font-size: 15px;
+}
+
+
+.no-error {
+		background: hsla(120, 50%, 50%, 0.75);
+	
+}
+
+.error {
+	
+	background: hsla(352, 65%, 58%, 0.74);
+}
+
+#message {
+	
+
+	color: #fff;
+	padding: 10px;
+	margin-top: -10px;
+	margin-bottom: 5px;
+	border: 1px solid #f1f1f1;
+}
+#closeMessage {
+	float: right;
+	color:red;
+	background: hsla(58, 92%, 52%, 0.96);
+	cursor:pointer;
+	font-size: 20px;
+	margin-top: -10px;
+	padding: 7px 5px 6px 5px;
+	
+}
+
+#error {color:red;}
