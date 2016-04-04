@@ -1,6 +1,6 @@
 <?php
 /*
- *Authot: M-M T
+ *Author: M-M T
  *Hindamis klass. Rakenduse põhiloogika asub siin
  *
  */
